@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 08/02/2019 09:56:38 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Mapeos.Escuela" table="escuela" catalog="mydb" optimistic-lock="version">
+        <id name="nombreEscuela" type="string">
+            <column name="Nombre_escuela" length="50" />
+            <generator class="assigned" />
+        </id>
+        <property name="direccion" type="string">
+            <column name="direccion" length="45" />
+        </property>
+        <property name="telefono" type="string">
+            <column name="telefono" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>
