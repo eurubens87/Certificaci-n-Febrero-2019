@@ -1,0 +1,6 @@
+se considera competencia a todo el evento que puede tener varias fases donde hay un ganador por disciplina y categoria
+una sola competencia por disciplina y por categoria
+el alumno pudo haber competido en alguna disciplina y en otras no
+si el responsable de inscripciones acepta las inscripciones es porque el aspirante tiene la documentacion correcta, de lo contrario no lo registra como aspirante
+si el usuario cambia de aspirante en tiempo de ejecucion, los datos ingresados sobre competencias no se modificarán
+si el responsable de carga se equivoca, hay otra pantalla que permite modificar las inscripciones
